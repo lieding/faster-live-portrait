@@ -390,8 +390,8 @@ async def upload_single_image_files(
 
 
 if __name__ == "__main__":
-    source_path = ""
-    driving_image_path = ""
+    source_path = "assets/examples/source/s1.jpg"
+    driving_image_path = "driving.jpg"
     source_img = cv2.imread(source_path, cv2.IMREAD_COLOR)
     driving = cv2.imread(driving_image_path, cv2.IMREAD_COLOR)
     upload_single_image_files(source_image=source_img, driving_image=driving) # type: ignore

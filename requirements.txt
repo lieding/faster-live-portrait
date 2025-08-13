@@ -1,6 +1,7 @@
 ffmpeg-python
 omegaconf
 onnx
+onnxruntime
 pycuda
 numpy
 opencv-python
